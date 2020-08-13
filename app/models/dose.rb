@@ -6,5 +6,4 @@ class Dose < ApplicationRecord
   validates :cocktail, presence: true
   validates :cocktail, uniqueness: { scope: :ingredient }
   validates :ingredient, presence: true
-
 end
