@@ -10,6 +10,8 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 32px;
   font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: lighter;
 }
 
 .banner p {
@@ -17,4 +19,17 @@
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-family: 'Roboto Mono', monospace;
+  font-weight: lighter;
+}
+
+
+.banner-show {
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+  width: 75%;
+  justify-content: center;
+
 }
