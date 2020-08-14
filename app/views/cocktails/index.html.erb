@@ -17,11 +17,11 @@
         <div class="card-bottom">
           <h2><%= cocktail.name %></h2>
           <div class="d-flex ml-0 my-2">
-            <%= link_to "Details", cocktail_path(cocktail), class:"mr-3" %>
+            <%= link_to "Details", cocktail_path(cocktail), class:"mr-3 black" %>
             <%= link_to "Delete",
                         cocktail_path(cocktail),
                         method: :delete,
-                        data: { confirm: "Are you sure?"} %>
+                        data: { confirm: "Are you sure?"}, class:"black" %>
           </div>
         </div>
       </div>

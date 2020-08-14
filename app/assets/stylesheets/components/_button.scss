@@ -1,8 +1,14 @@
 .btn-gold {
   padding: 10px;
-  color:  white;
+  color:  black;
   font-family: 'Roboto Mono';
   border: 2px, solid, white;
   background-color: #CCB377;
-  text-decoration: none;
+  opacity: 0.8;
+}
+
+.btn-gold:hover {
+  text-decoration:none;
+  color: black;
+  opacity: 1;
 }
