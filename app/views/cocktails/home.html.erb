@@ -1,12 +1,8 @@
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://nerds.co/wp-content/uploads/2017/08/banner-e1502674836569.png')">
   <div class="container">
-    <h1>Add a new cocktail</h1>
+    <h1>Would you like a cocktail?</h1>
     <p>Create your customised drink.</p>
+    <%= link_to "Create your drink", new_cocktail_path, class:"btn btn-primary" %>
+    <%= link_to "See our cocktails", cocktails_path, class:"btn btn-primary" %>
   </div>
 </div>
-
-<%= simple_form_for(@cocktail) do |f| %>
-  <%= f.input :name %>
-  <%= f.input :photo, as: :file %>
-  <%= f.submit class: 'btn btn-primary' %>
-<% end %>

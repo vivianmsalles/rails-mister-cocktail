@@ -1,4 +1,10 @@
-<h1>Add a new dose</h1>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://nerds.co/wp-content/uploads/2017/08/banner-e1502674836569.png')">
+  <div class="container">
+    <h1>Add a new dose for your <%= @cocktail.name %></h1>
+  </div>
+</div>
+
+
 
 <%= simple_form_for [@cocktail, @dose] do |f| %>
   <%= f.input :description %>
